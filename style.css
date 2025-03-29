@@ -117,6 +117,7 @@
 
     .project {
         background: #1e1e1e;
+        font-style: sans-serif;
         padding: 20px;
         margin: 20px auto;
         width: 80%;
@@ -138,6 +139,11 @@
     .project p {
         font-size: 16px;
         opacity: 0.8;
+    }
+    .project a{
+        color: #ff5733;
+        text-decoration: none;
+        transition: color 0.3s ease;
     }
 
     /* Contact Form Styling */
